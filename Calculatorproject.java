@@ -1,4 +1,11 @@
-
+/* Md Saniul Basir Saz
+   Departmnet of Computer Science and Engineering 
+   Jashore University of Science and Technology -JUST
+   Student Id: 200103
+   Date: 30/01/2023
+   Second Year ,First Semester
+   Time: 9:25 PM
+ */
 import java.util.Scanner;
 import java.lang.Math;
 

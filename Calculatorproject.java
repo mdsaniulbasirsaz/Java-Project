@@ -30,7 +30,7 @@ public class Calculatorproject{
         System.out.println("8. Absulate Value");
         System.out.println("9. Factorial");
 
-        System.out.println("\nWhat Would You Like To Do?:");
+        System.out.println("\nWhat Would You Like To Do?:\n");
         int choice = scc.nextInt();
 
         if(choice==1)
@@ -78,11 +78,15 @@ public class Calculatorproject{
     }
     public static void addition()
     {
-        System.out.println("Choice Your Option:");
-        System.out.println("\n1. Sum of Two numbers");
+        System.out.println("----------------------------------------------------");
+        System.out.println("            ADDITION            ");
+        System.out.println("----------------------------------------------------");
+        System.out.println("\nChoice Your Option:");
+        System.out.println("---------------------------");
+        System.out.println("1. Sum of Two numbers");
         System.out.println("2. Sum of Three Numbers");
         System.out.println("3. Sum of Multiple Numbers");
-    
+        System.out.println("---------------------------");
         Scanner scc=new Scanner(System.in);
         int n=scc.nextInt();
         if(n==1)
@@ -120,6 +124,9 @@ public class Calculatorproject{
     }
     public static void subtraction()
     {
+        System.out.println("----------------------------------------------------");
+        System.out.println("                SUBTRACTION             ");
+        System.out.println("----------------------------------------------------");
         Scanner scc=new Scanner(System.in);
         System.out.println("\nEnter Your First Number:");
         int a=scc.nextInt();
@@ -129,9 +136,14 @@ public class Calculatorproject{
     }
     public static void multiplication()
     {
+        System.out.println("----------------------------------------------------");
+        System.out.println("          MULTIPLICATION              ");  
+        System.out.println("----------------------------------------------------"); 
         System.out.println("\nChoice Your Option:");
+        System.out.println("-------------------------------");
         System.out.println("1. Multiplication of Two Number");
         System.out.println("2. Multiplication of N Number");
+        System.out.println("---------------------------------");
         Scanner scc=new Scanner(System.in);
         int n=scc.nextInt();
         if(n==1)
@@ -150,17 +162,23 @@ public class Calculatorproject{
     //Divisions
     public static void divisions()
     {
-      Scanner scc=new Scanner(System.in);
-      System.out.println("\nEnter Your First Number:");
-      float a=scc.nextFloat();
-      System.out.println("Enter Your Second Number:");
-      float b=scc.nextFloat();
-      float c=a/b;
-      System.out.println("Your Ans = "+ c);
+        System.out.println("----------------------------------------------------");
+        System.out.println("            DIVISIONS               ");
+        System.out.println("----------------------------------------------------");
+        Scanner scc=new Scanner(System.in);
+        System.out.println("\nEnter Your First Number:");
+        float a=scc.nextFloat();
+        System.out.println("Enter Your Second Number:");
+        float b=scc.nextFloat();
+        float c=a/b;
+        System.out.println("Your Ans = "+ c);
     }
     //Module
     public static void module()
-    {
+    {   
+        System.out.println("----------------------------------------------------");
+        System.out.println("            MODULE          ");
+        System.out.println("----------------------------------------------------");
         Scanner scc=new Scanner(System.in);
         System.out.println("\nEnter Your First Number:");
         int a=scc.nextInt();
@@ -172,6 +190,9 @@ public class Calculatorproject{
     //Square Root
     public static void squareRoot()
     {
+        System.out.println("----------------------------------------------------");
+        System.out.println("            SQUARE ROOOT        ");
+        System.out.println("----------------------------------------------------");
         Scanner scc=new Scanner(System.in);
         System.out.println("\nEnter Your Number:");
         double a=scc.nextDouble();
@@ -182,6 +203,9 @@ public class Calculatorproject{
     //Square
     public static void square()
     {
+        System.out.println("----------------------------------------------------");
+        System.out.println("            SQUARE              ");
+        System.out.println("----------------------------------------------------");
         Scanner scc = new Scanner(System.in);
         System.out.println("\nEnter Your Number:");
         double a=scc.nextDouble();
@@ -191,6 +215,9 @@ public class Calculatorproject{
     //Absulate Value
     public static void absvalue()
     {
+        System.out.println("----------------------------------------------------");
+        System.out.println("            ABSULATE VALUE          ");
+        System.out.println("----------------------------------------------------");
         Scanner scc = new Scanner(System.in);
         System.out.println("\nEnter Your First Number:");
         double a=scc.nextDouble();
@@ -202,6 +229,9 @@ public class Calculatorproject{
     //factorial
     public static void factorial()
     {
+        System.out.println("----------------------------------------------------");
+        System.out.println("            FACTORIAL           ");
+        System.out.println("----------------------------------------------------");
         Scanner scc = new Scanner(System.in);
         System.out.println("\nEnter Your Any Positive Number:");
         int n=scc.nextInt();
